@@ -1,5 +1,7 @@
 const http = require('http')
 
+var url = require('url')
+
 http.createServer( function (req, res) {
     if (req.url == '/') {
         res.writeHead(200, {"Content-Type" : "text/html"})
