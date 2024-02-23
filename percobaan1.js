@@ -1,6 +1,7 @@
 const http = require('http')
 
 var url = require('url')
+var test = 'test'
 
 http.createServer( function (req, res) {
     if (req.url == '/') {
